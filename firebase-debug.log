@@ -331,3 +331,37 @@ You're about to initialize a Firebase project in this directory:
 [info] +  Uploaded service account JSON to GitHub as secret FIREBASE_SERVICE_ACCOUNT_VOCABULARY_GAME_589F7. 
 [info] i  You can manage your secrets at https://github.com/chimeconfused999/Vocab-Game/settings/secrets. 
 [info] 
+[info] 
+[info] +  Created workflow file C:\Users\teapz\OneDrive\Vocab Game Website\.github/workflows/firebase-hosting-pull-request.yml 
+[info] 
+[info] +  Created workflow file C:\Users\teapz\OneDrive\Vocab Game Website\.github/workflows/firebase-hosting-merge.yml 
+[info] 
+[info] i  Action required: Visit this URL to revoke authorization for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] i  Action required: Push any new workflow file(s) to your repo 
+[info] 
+=== Storage Setup
+[info] 
+[info] Firebase Storage Security Rules allow you to define how and when to allow
+[info] uploads and downloads. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[info] +  Wrote storage.rules 
+[info] 
+=== Emulators Setup
+[info] i  firestore: downloading cloud-firestore-emulator-v1.14.4.jar... {"metadata":{"emulator":{"name":"firestore"},"message":"downloading cloud-firestore-emulator-v1.14.4.jar..."}}
+[debug] [2022-07-07T22:38:45.359Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-firestore-emulator-v1.14.4.jar 
+[debug] [2022-07-07T22:38:45.534Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-firestore-emulator-v1.14.4.jar 200
+[debug] [2022-07-07T22:38:45.534Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-firestore-emulator-v1.14.4.jar [stream]
+[info] i  database: downloading firebase-database-emulator-v4.8.0.jar... {"metadata":{"emulator":{"name":"database"},"message":"downloading firebase-database-emulator-v4.8.0.jar..."}}
+[debug] [2022-07-07T22:38:55.833Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/firebase-database-emulator-v4.8.0.jar 
+[debug] [2022-07-07T22:38:56.016Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/firebase-database-emulator-v4.8.0.jar 200
+[debug] [2022-07-07T22:38:56.016Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/firebase-database-emulator-v4.8.0.jar [stream]
+[info] i  pubsub: downloading pubsub-emulator-0.1.0.zip... {"metadata":{"emulator":{"name":"pubsub"},"message":"downloading pubsub-emulator-0.1.0.zip..."}}
+[debug] [2022-07-07T22:38:58.049Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/pubsub-emulator-0.1.0.zip 
+[debug] [2022-07-07T22:38:58.204Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/pubsub-emulator-0.1.0.zip 200
+[debug] [2022-07-07T22:38:58.205Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/pubsub-emulator-0.1.0.zip [stream]
+[info] i  storage: downloading cloud-storage-rules-runtime-v1.0.2.jar... {"metadata":{"emulator":{"name":"storage"},"message":"downloading cloud-storage-rules-runtime-v1.0.2.jar..."}}
+[debug] [2022-07-07T22:39:03.163Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.0.2.jar 
+[debug] [2022-07-07T22:39:03.291Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.0.2.jar 200
+[debug] [2022-07-07T22:39:03.291Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.0.2.jar [stream]
