@@ -98,11 +98,9 @@
     let target = event.target;
     if (target.matches('button')) {
       let value = target.innerHTML
-
+      
       document.querySelector('#output').value += value
-      document.querySelector('#output').disabled = true
-      var div = document.getElementById("buttons");
-      div.style.display ='none';
+      var div = document.getElementById("buttons")
     }
   });
 

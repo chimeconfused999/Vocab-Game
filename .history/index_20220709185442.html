@@ -77,9 +77,7 @@
     <button id="Medium" onclick="style.display = 'none'">Medium</button>
     <button id="Advanced" onclick="style.display = 'none'">Advanced</button>
   </div>
-  <input id="output" type="text">
-
-  <p></p>
+  <h1 id="output" class="output"></h1>
   
 
   <script>
@@ -100,7 +98,6 @@
       let value = target.innerHTML
 
       document.querySelector('#output').value += value
-      document.querySelector('#output').disabled = true
       var div = document.getElementById("buttons");
       div.style.display ='none';
     }

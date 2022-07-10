@@ -98,11 +98,16 @@
     let target = event.target;
     if (target.matches('button')) {
       let value = target.innerHTML
-
+      var disabled = document.getElementById("output").disabled;
       document.querySelector('#output').value += value
-      document.querySelector('#output').disabled = true
       var div = document.getElementById("buttons");
       div.style.display ='none';
+      if (disabled) {
+        document.getElementById("name").disabled = false;
+      }
+      else {
+        document.getElementById("name").disabled = true;
+    }
     }
   });
 

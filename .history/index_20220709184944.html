@@ -77,6 +77,9 @@
     <button id="Medium" onclick="style.display = 'none'">Medium</button>
     <button id="Advanced" onclick="style.display = 'none'">Advanced</button>
   </div>
+  <div>
+    <p id="output"></p>
+  </div>
   <input id="output" type="text">
 
   <p></p>
@@ -93,19 +96,11 @@
     document.getElementById("loader").style.display = "none";
     document.getElementById("myDiv").style.display = "block";
   }
-  document.querySelector('#buttons')
-  .addEventListener('click', event => {
-    let target = event.target;
-    if (target.matches('button')) {
-      let value = target.innerHTML
-
-      document.querySelector('#output').value += value
-      document.querySelector('#output').disabled = true
-      var div = document.getElementById("buttons");
-      div.style.display ='none';
-    }
-  });
-
+  var tag = document.getElementById('demo');
+  var button = document.querySelector('button');
+  button.addEventListener('click', function(){
+  tag.classList.toggle('demo');
+});
   </script>
  
 

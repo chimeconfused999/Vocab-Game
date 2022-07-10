@@ -99,8 +99,7 @@
     if (target.matches('button')) {
       let value = target.innerHTML
 
-      document.querySelector('#output').value += value
-      document.querySelector('#output').disabled = true
+      document.getElementById("output").innerHTML.value+= value
       var div = document.getElementById("buttons");
       div.style.display ='none';
     }
