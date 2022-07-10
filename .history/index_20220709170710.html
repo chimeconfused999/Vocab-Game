@@ -70,18 +70,17 @@
   <div style="display:none;" id="myDiv" class="animate-bottom">
     <h2>Welcome to the Vocab Game!</h2>
     <p>Please select a level!</p>
+    <div id ="Buttons">
+    <button>Beginner</button>
+    <button>Medicore</button>
+    <button>Medium</button>
+    <button>Advanced</button>
   </div>
-  <div id ="buttons">
-    <button id="Beginner">Beginner</button>
-    <button id="Medicore">Medicore</button>
-    <button id="Medium">Medium</button>
-    <button id="Advanced">Advanced</button>
-    <input id="output" type="text">
   </div>
 
   <p></p>
   
-
+  <!--
   <script>
   var myVar;
   
@@ -93,19 +92,8 @@
     document.getElementById("loader").style.display = "none";
     document.getElementById("myDiv").style.display = "block";
   }
-  document.querySelector('#buttons')
-  .addEventListener('click', event => {
-    let target = event.target;
-    if (target.matches('button')) {
-      let value = target.innerHTML
-      
-      document.querySelector('#output').value += value
-      document.
-    }
-  });
-
   </script>
- 
+-->
 
 </body>
 </html>
